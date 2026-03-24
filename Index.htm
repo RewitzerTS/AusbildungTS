@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top Sports Karriere</title>
+
+<style>
+:root {
+    --primary: #F9B233;
+    --black: #000;
+    --card: #1e1e1e;
+    --text: #fff;
+    --text-muted: #bfbfbf;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--black);
+    color: var(--text);
+    line-height: 1.5;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: var(--text-muted);
+    max-width: 100%;
+    margin: 0 auto 20px;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: var(--primary);
+    color: black;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* SECTION & CARD */
+.section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px 15px;
+}
+
+.card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--primary);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+/* FORM ELEMENTS */
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+input {
+    background: #2a2a2a;
+    color: white;
+}
+
+button {
+    background: var(--primary);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* MAILTO BUTTON */
+.mailto-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--primary);
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: #777;
+    font-size: 14px;
+}
+
+/* MEDIA QUERIES für größere Displays */
+@media (min-width: 600px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+    .hero p {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <h1>Starte deine Karriere im Fitnessbereich</h1>
+    <p>
+        Du liebst Sport, willst nicht den ganzen Tag im Büro sitzen und arbeitest gerne mit Menschen?
+        Dann ist eine Ausbildung oder ein duales Studium bei Top Sports genau das Richtige für dich.
+    </p>
+    <a href="https://topsports.fitness/" target="_blank" class="btn">Mehr über uns</a>
+</div>
+
+<!-- AUSBILDUNG & STUDIUM -->
+<div class="section">
+    <h2>Deine Möglichkeiten bei uns</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Ausbildung</h3>
+            <p><strong>Sport- & Fitnesskaufmann/-frau</strong></p>
+
+            <p>
+                In der Ausbildung steigst du direkt ins Berufsleben ein und lernst alles,
+                was du für die Arbeit in einem Fitnessstudio brauchst.
+            </p>
+
+            <p><strong>Key Facts:</strong></p>
+            <ul>
+                <li>Dauer: 3 Jahre</li>
+                <li>Abschluss: IHK</li>
+                <li>Praxis im Studio + Berufsschule</li>
+            </ul>
+
+            <p><strong>Voraussetzungen:</strong></p>
+            <ul>
+                <li>Mindestens Realschulabschluss (empfohlen)</li>
+                <li>Interesse an Sport & Fitness</li>
+                <li>Freude am Umgang mit Menschen</li>
+                <li>Teamfähigkeit & Zuverlässigkeit</li>
+                <li>Motivation Neues zu lernen</li>
+            </ul>
+
+            <p>
+                Wichtig: Du musst kein Profi-Sportler sein – viel wichtiger ist deine Einstellung!
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Duales Studium</h3>
+            <p><strong>Fitnessökonomie / Sportökonomie</strong></p>
+
+            <p>
+                Beim dualen Studium kombinierst du Arbeiten im Studio mit einem Studium
+                und erwirbst gleichzeitig einen Bachelorabschluss.
+            </p>
+
+            <p><strong>Key Facts:</strong></p>
+            <ul>
+                <li>Dauer: ca. 3 – 3,5 Jahre</li>
+                <li>Abschluss: Bachelor</li>
+                <li>Praxis + Studium bei unseren Partnern</li>
+            </ul>
+
+            <p><strong>Voraussetzungen:</strong></p>
+            <ul>
+                <li>Abitur oder Fachhochschulreife</li>
+                <li>Interesse an Wirtschaft & Sport</li>
+                <li>Selbstständigkeit & Organisation</li>
+                <li>Kommunikationsfähigkeit</li>
+                <li>Motivation für Studium & Praxis gleichzeitig</li>
+            </ul>
+
+            <p>
+                Du solltest bereit sein, Verantwortung zu übernehmen und dich weiterzuentwickeln.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <h3>Was ist der Unterschied?</h3>
+
+        <p>
+            Ausbildung und duales Studium führen beide in die Fitnessbranche –
+            aber der Weg dorthin ist unterschiedlich. Entscheidend ist, was besser zu dir passt.
+        </p>
+
+        <p><strong>Ausbildung – der praktische Einstieg:</strong></p>
+        <ul>
+            <li>Du bist den Großteil der Zeit direkt im Studio aktiv</li>
+            <li>Du lernst „on the job“ und sammelst viel praktische Erfahrung</li>
+            <li>Du hast festen Berufsschulunterricht neben der Arbeit</li>
+            <li>Du verdienst von Anfang an dein eigenes Geld</li>
+            <li>Ideal, wenn du direkt ins Berufsleben starten willst</li>
+        </ul>
+
+        <p>
+            👉 Die Ausbildung ist perfekt für dich, wenn du gerne praktisch arbeitest,
+               schnell eigenständig werden willst und nicht so viel Theorie brauchst.
+        </p>
+
+        <p><strong>Duales Studium – Praxis + Theorie kombiniert:</strong></p>
+        <ul>
+            <li>Du arbeitest im Studio und studierst gleichzeitig</li>
+            <li>Du beschäftigst dich zusätzlich mit Wirtschaft, Management und Marketing</li>
+            <li>Du lernst, wie ein Fitnessunternehmen geführt wird</li>
+            <li>Du hast mehr Lernaufwand, aber auch mehr Möglichkeiten danach</li>
+            <li>Du erwirbst einen Bachelorabschluss</li>
+        </ul>
+
+        <p>
+            👉 Das duale Studium passt zu dir, wenn du dich weiterentwickeln willst,
+               Interesse an wirtschaftlichen Themen hast und dir später auch Führungspositionen vorstellen kannst.
+        </p>
+
+        <p>
+            <strong>Unser Tipp:</strong><br>
+            Es gibt kein „besser“ oder „schlechter“ – beide Wege bieten dir starke Karrierechancen.
+            Wichtig ist, dass du den Weg wählst, der zu deinen Interessen und Zielen passt.
+        </p>
+    </div>
+</div>
+
+<!-- ALLTAG -->
+<div class="section">
+    <div class="card">
+        <h2>Dein Alltag bei Top Sports</h2>
+
+        <p>
+            Kein Tag ist wie der andere. Du arbeitest aktiv im Studio,
+            bist ständig in Bewegung und hast direkten Kontakt mit Menschen.
+        </p>
+
+        <ul>
+            <li>💪 Betreuung von Mitgliedern auf der Trainingsfläche</li>
+            <li>📋 Erstellung individueller Trainingspläne</li>
+            <li>🧑‍🤝‍🧑 Beratung von Interessenten</li>
+            <li>🎯 Unterstützung im Verkauf und Service</li>
+            <li>📱 Mitarbeit im Marketing & Social Media</li>
+            <li>🏋️‍♂️ Training in einer motivierenden Umgebung</li>
+        </ul>
+
+        <p>
+            Du siehst jeden Tag Fortschritte bei anderen Menschen – und auch bei dir selbst.
+        </p>
+    </div>
+</div>
+
+<!-- FORMULAR -->
+<div class="section">
+    <div class="card">
+        <h2>Interesse? Dann schicke uns eine Mail!</h2>
+        <p>Wir melden uns nach dem Event bei dir 👇</p>
+
+        <a href="mailto:nuertingen@topsports-fitness.de?subject=ASS%20Berufsinformationstag&body=Hallo%20Top%20Sports%20Team,%0A%0Aich%20habe%20Interesse%20mich%20f%C3%BCr%20ein(e)%20Studium/Ausbildung%20bei%20euch%20und%20m%C3%B6chte%20gerne%20mehr%20Informationen%20dazu%20💪." 
+           class="mailto-btn">
+            Kontakt aufnehmen
+        </a>
+    </div>
+</div>
+
+<div class="footer">
+    © 2026 Top Sports Fitness
+</div>
+
+</body>
+</html>
